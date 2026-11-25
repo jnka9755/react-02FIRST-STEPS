@@ -23,11 +23,9 @@ const myStyle: CSSProperties = {
 
 export function MyAwesomeApp() {
 
-
-
     return (
         <>
-            <h1 style={myStyle}>{firstName}</h1>
+            <h1 data-testid="firstName" style={myStyle}>{firstName}</h1>
             <h3>{lastName}</h3>
             <ul>
                 {favoriteGames.map(game => (

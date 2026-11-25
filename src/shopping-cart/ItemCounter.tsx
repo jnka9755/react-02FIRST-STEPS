@@ -23,7 +23,6 @@ export const ItemCounter = ({ itemName, quantity }: Props) => {
     }
 
     return (
-
         <>
             <section className={styles['item-row']}>
                 <span

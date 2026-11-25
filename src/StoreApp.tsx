@@ -6,7 +6,7 @@ interface ItemInCart {
 };
 
 const itemsInCart: ItemInCart[] = [
-    { productName: 'PC Gamer', quantity: 5 },
+    { productName: 'PC Gamer', quantity: 1 },
     { productName: 'Tablet', quantity: 10 },
     { productName: 'Smartphone', quantity: 20 },
 ];
